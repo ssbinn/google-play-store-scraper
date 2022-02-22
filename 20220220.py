@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[58]:
-
-
 import requests
-from bs4 import BeautifulSoup # HTML 빠르게 파싱 가능 (정적 페이지 분석)
+from bs4 import BeautifulSoup 
 from selenium import webdriver
 import time
 import re
