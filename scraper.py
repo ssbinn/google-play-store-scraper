@@ -50,7 +50,6 @@ for i in apps:
 
 start = time.time()
 
-# us, id 뽑아온 이유 설명 추가하기
 for app_id in app_id_list:
     result = app(app_id,
         lang='ko',
